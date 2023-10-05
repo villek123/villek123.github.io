@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="fage">Ålder:</label><br>
+            <input type="number" id="fage" name="fage" required><br>
+            <legend>Kontaktuppgifter</legend>
+
+        </fieldset>
+        <fieldset>
+            <p>Hur ofta besöker du blomstermålabladet?</p>
+            <input type="radio" id="varjedag" name="besök" value="VARJEDAG" required>
+            <label for="varjedag">Varje Dag</label><br>
+            <input type="radio" id="varannandag" name="besök" value="VARANNANDAG" required>
+            <label for="varannandag">Varannan Dag</label><br>
+            <input type="radio" id="varjevecka" name="besök" value="VARJEVECKA" required>
+            <label for="varjevecka">Varje Vecka</label>
+            <p>Vilka delar av blomstermålabladet brukar du besöka?</p>
+            <input type="checkbox" id="check1" name="check1" value="nyheter">
+            <label for="check1">Nyheter</label><br>
+            <input type="checkbox" id="check2" name="check2" value="utrikes">
+            <label for="check2">Utrikes</label><br>
+            <input type="checkbox" id="check3" name="check3" value="inrikes">
+            <label for="check3">Inrikes</label><br>
+            <input type="checkbox" id="check4" name="check4" value="sport">
+            <label for="check4">Sport</label><br>
+            <input type="checkbox" id="check5" name="check5" value="skvaller">
+            <label for="check5">Skvaller</label><br>
+            <input type="checkbox" id="check6" name="check6" value="väder">
+            <label for="check6">Väder</label><br>
+            <input type="checkbox" id="check7" name="check7" value="övrigt">
+            <label for="check7">Övrigt</label><br>
+            <legend>Dina besök på blomstermålabladet</legend>
+
+        </fieldset>
+        <fieldset>
+            <label for="fbästa">Bästa med blomstermålabladet</label><br>
+            <input type="text" id="fbästa" name="fbästa"><br>
+            <label for="fsämsta">Sämsta med blomstermålabladet</label><br>
+            <input type="text" id="fsämsta" name="fsämsta"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email">
+            <br><label for="dropdown">Välj din storlek:</label><br>
+            <select id="dropdown" name="dropdown">
+                <option value="option1">XS</option>
+                <option value="option2">S</option>
+                <option value="option3">M</option>
+                <option value="option4">L</option>
+                <option value="option5">XL</option>
+            </select>
+
+            <legend>Vinn en t-shirt!</legend>
+
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Submit"><br>
+            <input type="reset">
+            <legend>Skicka/Återställ</legend>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
